@@ -51,7 +51,7 @@ echo '  XxXxXxX'
 echo''
 echo -n  "-----*capo*----" ; read a ; echo ''
 
-if [ $a -eq 1 -r 01 ]; then
+if [ $a -eq 1 ]; then
 
 clear
 figlet -f big 'Lazymux'
@@ -60,7 +60,7 @@ figlet -f big 'finished'
 
 
 fi
-if [ $a -eq 2 -r 01 ]; then
+if [ $a -eq 2 ]; then
 
 clear
 figlet -f big 'sqlmap'
